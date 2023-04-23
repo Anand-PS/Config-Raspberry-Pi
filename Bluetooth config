@@ -1,4 +1,5 @@
-Terminal codes
+TERMINAL CODES
+--------------
 
 bluetoothctl
 agent on 
@@ -10,4 +11,17 @@ trust 00:18:E4:34:D9:54
 exit
 
 sudo rfcomm bind rfcomm0 00:18:E4:34:D9:54
+
+DEVICE CONNECTION
+-----------------
 sudo rfcomm connect rfcomm0 00:18:E4:34:D9:54 (on errors try restarting the pi)
+
+LIBRARY INSTALLATION
+--------------------
+pip3 install vosk
+sudo apt install python3-pyaudio
+sudo pip3 install pyttsx3
+
+LIBRARY VERIFICATION
+--------------------
+pip show vosk
