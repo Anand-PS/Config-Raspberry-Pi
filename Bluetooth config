@@ -1,0 +1,10 @@
+Terminal codes
+
+bluetoothctl
+agent on 
+scan on  (Find HC-05 address)
+scan off  
+pair 00:18:E4:34:D9:54
+Enter PIN code: 1234
+trust 00:18:E4:34:D9:54
+exit
